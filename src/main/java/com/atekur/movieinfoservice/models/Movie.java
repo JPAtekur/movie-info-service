@@ -4,6 +4,10 @@ public class Movie {
 	private String name;
 	private String movieId;
 	
+	public Movie() {
+	
+	}
+	
 	public Movie(String name, String movieId) {
 		super();
 		this.name = name;
